@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>http://www.kurisucat.cn</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>https://kurisu.run:8082</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>minecraft://?addExternalServer=%C2%A7l%C2%A76Kurisu Server|mc.kurisu.run:19132</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>https://html5up.net/dimension</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>https://jq.qq.com/?_wv=1027&amp;k=3s5ZCK1w</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>https://kurisu.run:8082/index.php/2-about.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+<url>
+ <loc>https://jq.qq.com/?_wv=1027&amp;k=es6wHoV9</loc>
+ <priority>0.3</priority>
+ <lastmod>2020-07-13</lastmod>
+ <changefreq>never</changefreq>
+</url>
+
+</urlset>
