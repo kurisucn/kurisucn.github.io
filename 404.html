@@ -14,6 +14,14 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="sStylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="shortcut icon" href="https://s1.ax1x.com/2020/04/21/JJLc0U.jpg" />
+        <script>
+		bgg = new Array(2); 
+		bgg[0] = 'https://api.yimian.xyz/img?type=moe' 
+		bgg[1] = 'https://api.yimian.xyz/img/?type=moe&R18=true'
+		bgg[2] = 'https://api.yimian.xyz/img'
+		index = Math.floor(Math.random() * bgg.length);
+		document.write("<style>#bg:after {-moz-transform: scale(1.125);-webkit-transform: scale(1.125);-ms-transform: scale(1.125);transform: scale(1.125);-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;  background-image: url("+bgg[index]+");background-position: center;background-size: cover;background-repeat: no-repeat;z-index: 1;}</style>");
+        </script>
     </head>
     <body
         class="is-preload"
@@ -43,7 +51,7 @@
                 <nav>
                     <ul>
                         <li><a href="#intro">为什么会出现 404 ？</a></li>
-                        <li><a href="#intro">Why 404?</a></li>
+                        <li><a href="#introeng">Why 404?</a></li>
                         <li><a href="https://www.kurisucat.cn">Home 主页</a></li>
                     </ul>
                     <br />
@@ -54,10 +62,17 @@
             <div id="main">
                 <!-- Intro -->
                 <article id="intro">
-                    <h2 class="major">我？</h2>
+                    <h2 class="major">404？</h2>
 
                     <p>
                         因为找不到这个页面了呗。
+                    </p>
+                </article>
+                <article id="introeng">
+                    <h2 class="major">404？</h2>
+
+                    <p>
+                        Because we cannot find this website.
                     </p>
                 </article>
                 <!-- Elements -->
