@@ -1420,7 +1420,14 @@ body.is-preload #bg:before {
 #header .logo .icon:before {
     font-size: 2rem;
 }
-
+#header .photo {
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+    
+}
 #header .content {
     border-style: solid;
     border-color: #ffffff;
