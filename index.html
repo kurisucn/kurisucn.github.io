@@ -31,7 +31,7 @@
                  var usethings = 'mobile'
                 }else{
                  var usethings = 'pc'}
-		bgg = new Array(8); 
+		bgg = new Array(11); 
 		bgg[0] = 'https://api.yimian.xyz/img?type=moe' 
 		bgg[1] = 'https://api.yimian.xyz/img/?type=moe&R18=true'
 		bgg[2] = 'https://api.yimian.xyz/img'
@@ -42,6 +42,8 @@
                 bgg[7] = 'https://api.ixiaowai.cn/api/api.php'
                 bgg[8] = 'https://i.xinger.ink:4443/images.php'
                 bgg[9] = 'https://random.52ecy.cn/randbg.php'
+                bgg[10] = 'https://pixiv.cat/68912031.png'
+                bgg[11] = 'https://pixiv.cat/84932621.png'
 		index = Math.floor(Math.random() * bgg.length);
 		document.write("<style>#bg:after {-moz-transform: scale(1.125);-webkit-transform: scale(1.125);-ms-transform: scale(1.125);transform: scale(1.125);-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;  background-image: url("+bgg[index]+");background-position: center;background-size: cover;background-repeat: no-repeat;z-index: 1;}</style>");
         </script>
