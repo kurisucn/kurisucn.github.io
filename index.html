@@ -15,11 +15,32 @@
         <noscript><link rel="sStylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="shortcut icon" href="https://s1.ax1x.com/2020/04/21/JJLc0U.jpg" />
 	<script>
-		bgg = new Array(3); 
+                function is_mobile(){ 
+                    var os = new Array("Android","iPhone","Windows Phone","iPod","BlackBerry","MeeGo","SymbianOS");      
+                    var info = navigator.userAgent;
+                    var len = os.length; 
+                    for (var i = 0; i < len; i++) {
+                        if (info.indexOf(os[i]) > 0){
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+                // 这段是我抄来的，不测试直接干了
+                if(is_mobile()){ 
+                 var usethings = 'mobile'
+                }else{
+                 var usethings = 'pc'}
+		bgg = new Array(8); 
 		bgg[0] = 'https://api.yimian.xyz/img?type=moe' 
 		bgg[1] = 'https://api.yimian.xyz/img/?type=moe&R18=true'
 		bgg[2] = 'https://api.yimian.xyz/img'
                 bgg[3] = 'http://175.24.95.94/'
+                bgg[4] = 'https://img.paulzzh.tech/touhou/random'
+                bgg[5] = 'https://api.paugram.com/wallpaper/'
+                bgg[6] = 'https://api.btstu.cn/sjbz/api.php?method='+ usethings
+                bgg[7] = 'https://api.ixiaowai.cn/api/api.php'
+                bgg[8] = 'https://i.xinger.ink:4443/images.php'
 		index = Math.floor(Math.random() * bgg.length);
 		document.write("<style>#bg:after {-moz-transform: scale(1.125);-webkit-transform: scale(1.125);-ms-transform: scale(1.125);transform: scale(1.125);-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;  background-image: url("+bgg[index]+");background-position: center;background-size: cover;background-repeat: no-repeat;z-index: 1;}</style>");
         </script>
