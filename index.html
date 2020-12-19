@@ -29,16 +29,18 @@
                 // 这段是我抄来的，不测试直接干了
                 if(is_mobile()){ 
                  var usethings = 'mobile'
+                 var usethings2 = 'wap'
                 }else{
-                 var usethings = 'pc'}
+                 var usethings = 'pc'
+                 var usethings2 = 'pc'}
 		bgg = new Array(11); 
 		bgg[0] = 'https://api.yimian.xyz/img?type=moe' 
 		bgg[1] = 'https://api.yimian.xyz/img/?type=moe&R18=true'
 		bgg[2] = 'https://api.yimian.xyz/img'
                 bgg[3] = 'http://175.24.95.94/'
-                bgg[4] = 'https://img.paulzzh.tech/touhou/random?size=all&site=all'
+                bgg[4] = 'https://img.paulzzh.tech/touhou/random?site=all&size=' + usethings2
                 bgg[5] = 'https://api.paugram.com/wallpaper/'
-                bgg[6] = 'https://api.btstu.cn/sjbz/api.php?method='+ usethings
+                bgg[6] = 'https://api.yuzhitu.cn//sjbz/api.php?lx=suiji&method=mobile' + usethings
                 bgg[7] = 'https://api.ixiaowai.cn/api/api.php'
                 bgg[8] = 'https://i.xinger.ink:4443/images.php'
                 bgg[9] = 'https://random.52ecy.cn/randbg.php'
