@@ -68,6 +68,7 @@
 				<div class="inner">
                         <h1>KurisuCat</h1>
                         <p id="hitokoto"><a id="hitokoto_text">Hello, world! XD</a></p>
+					<br><link rel="import" href="./include/_section.html" is="ui-import">
                     </div>
                 </div>
                 <nav>
@@ -463,6 +464,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <div id="bg" loading="lazy" ></div>
 
         <!-- Scripts -->
+	<script src="./safari-polyfill.js"></script>
+	<script src="./html-import.js"></script>
+	<script>
+	    let nowar_banner_infomation = document.querySelector(".nowar_banner_infomation");
+	    nowar_banner_infomation.addEventListener("wheel", (event) => {
+		event.preventDefault();
+		nowar_banner_infomation.scrollLeft += event.deltaY;
+	    });
+	</script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
         <script src="assets/js/breakpoints.min.js"></script>
